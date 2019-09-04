@@ -1,0 +1,18 @@
+/*
+
+this is the first step in the project, belew is  the code that was used for extracting the data from the data base .
+
+note: I couldn't find my home town Jeddah, so instead I used Mecca which is the closest city to Jeddah.
+*/
+
+
+/* this code is for extracting Mecca data from the data base*/
+SELECT * FROM city_data WHERE  city='Mecca' AND country = 'Saudi Arabia';
+
+/* this code is for cheeking the avilable Saudi arabia cities in the data base for local comparing*/
+SELECT * FROM city_list WHERE country='Saudi Arabia';
+/* this code is for extracting Mecca data from the data base*/
+SELECT * FROM city_data WHERE  city='Riyadh' AND country = 'Saudi Arabia';
+
+/* this code is for extracting global data from the data base*/
+SELECT * FROM global_data;
